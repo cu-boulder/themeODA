@@ -1,0 +1,9 @@
+Package: themeODA
+Title: CU Boulder Office of Data Analytics GGTheme
+Version: 1.0
+Date: 2020-10-31
+Author: Peter Shaffery
+Maintainer: Peter Shaffery <peter.shaffery@colorado.edu>
+Description: A basic CU Boulder branded ggplot2 theme for CU Boulder oda
+Imports: ggplot2
+RoxygenNote: 7.1.1
