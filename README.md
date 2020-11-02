@@ -42,7 +42,7 @@ scatter
 
 
 
-![png](img/output_1_1.png)
+![png](output_1_1.png)
 
 
 
@@ -62,7 +62,7 @@ scatter.gradient
 
 
 
-![png](img/output_2_1.png)
+![png](output_2_1.png)
 
 
 
@@ -82,7 +82,7 @@ scatter.gradient
 
 
 
-![png](img/output_3_1.png)
+![png](output_3_1.png)
 
 
 
@@ -104,7 +104,7 @@ histogram
 
 
 
-![png](img/output_4_1.png)
+![png](output_4_1.png)
 
 
 
@@ -113,7 +113,7 @@ penguins$species.island = as.factor(paste0(penguins$species,'+\n',penguins$islan
 
 bar = ggplot(penguins,aes(x=species.island,fill=species.island)) +
     geom_bar() +
-    theme_oda(base_size=16) +
+    theme_oda(base_size=16, legend=FALSE) +
     scale_fill_oda() +
     labs(y='',x='Species+Island',title='Records per Species and Island',fill='Species+Island')
 
@@ -121,5 +121,5 @@ bar
 ```
 
 
-![png](img/output_5_0.png)
+![png](output_5_0.png)
 
