@@ -37,11 +37,6 @@ scatter = ggplot(penguins,aes(x=bill_length_mm, y=bill_depth_mm, color=sex)) +
 scatter
 ```
 
-    Warning message:
-    “Removed 11 rows containing missing values (geom_point).”
-
-
-
 ![png](img/output_1_1.png)
 
 
@@ -57,11 +52,6 @@ scatter.gradient = ggplot(penguins,aes(x=bill_length_mm, y=flipper_length_mm, co
 scatter.gradient
 ```
 
-    Warning message:
-    “Removed 2 rows containing missing values (geom_point).”
-
-
-
 ![png](img/output_2_1.png)
 
 
@@ -76,11 +66,6 @@ scatter.gradient = ggplot(penguins,aes(x=bill_length_mm, y=flipper_length_mm, co
 
 scatter.gradient
 ```
-
-    Warning message:
-    “Removed 2 rows containing missing values (geom_point).”
-
-
 
 ![png](img/output_3_1.png)
 
@@ -99,10 +84,6 @@ histogram
 
     `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
     
-    Warning message:
-    “Removed 2 rows containing non-finite values (stat_bin).”
-
-
 
 ![png](img/output_4_1.png)
 
