@@ -82,7 +82,6 @@ histogram = ggplot(penguins,aes(x=body_mass_g,group=species, fill=species)) +
 histogram
 ```
 
-    `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
     
 
 ![png](img/output_4_1.png)
