@@ -5,7 +5,7 @@ This package was put together to give the CU Boulder Office of Data Analytics a 
 To install this package run the following in either RStudio or your R console:
 ```
 install.packages('devtools') # ignore if devtools already installed
-devtools::install_github('proof-by-accident/themeODA')
+devtools::install_github('cu-boulder/themeODA')
 ```
 
 # Colors
