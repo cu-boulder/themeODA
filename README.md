@@ -42,7 +42,7 @@ scatter
 
 
 
-![png](output_1_1.png)
+![png](img/output_1_1.png)
 
 
 
@@ -62,7 +62,7 @@ scatter.gradient
 
 
 
-![png](output_2_1.png)
+![png](img/output_2_1.png)
 
 
 
@@ -82,7 +82,7 @@ scatter.gradient
 
 
 
-![png](output_3_1.png)
+![png](img/output_3_1.png)
 
 
 
@@ -104,7 +104,7 @@ histogram
 
 
 
-![png](output_4_1.png)
+![png](img/output_4_1.png)
 
 
 
@@ -121,5 +121,5 @@ bar
 ```
 
 
-![png](output_5_0.png)
+![png](img/output_5_0.png)
 
